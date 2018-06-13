@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分类 -</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper-4.2.6.min.css">
+    <link rel="stylesheet" href="css/fenlei.css">
+
+</head>
+<body>
+ 
+ 
+ 
+ 
+<!--
+   顶部搜索栏
+   <div class="search">
+       <div class="left">
+           <i class="fa fa-qrcode"></i>
+           <span>扫一扫</span>
+       </div>
+       <div class="center">
+           <i class="fa fa-search"></i>
+           <i class="fa fa-microphone"></i>
+           <input type="text" placeholder="华为荣耀8">
+       </div>
+       <div class="right">
+           <i class="fa fa-commenting-o"></i>
+           <span>消息</span>
+       </div>
+   </div>
+-->
+   
+   
+   
+   
+   
+<!-- main 的样式 开始-->
+ <div class="main" id="navdiv">
+     <div class="container-fulid">
+         <div class="row">
+             <div class="col-xs-3">
+                <div class="one">
+                    <ul class="navli">
+                     <li class="active">推荐分类</li>
+                     <li>热门推荐</li>
+                     <li>手机数码</li>
+                     <li>家用电器</li>
+
+                   </ul>
+                </div>
+                 
+             </div>
+             <div class="col-xs-9" id="pic2">
+                <div class="active">
+                 <a href=""><img class="pic-1" src="img/fenlei/ban01.png" alt=""></a>
+                 <h3>休闲零食</h3>
+                 <div class="pic-2">
+                     <div class="row">
+                         <div class="col-xs-4" v-for = "ars in pic">
+                          <a href="ars.link"><img :src="ars.img" alt=""></a>
+                          <p>{{ars.name}}</p> 
+                         </div>
+                     </div>
+                 </div>
+                </div>
+                <div>
+                 <a href=""><img class="pic-1" src="img/fenlei/ban01.png" alt=""></a>
+                 <h3>热门品牌</h3>
+                 <div class="pic-2">
+                     <div class="row">
+                         <div class="col-xs-4" v-for = "ars in num1">
+                          <a href="ars.link"><img :src="ars.img" alt=""></a>
+                          <p>{{ars.name}}</p> 
+                         </div>
+                     </div>
+                 </div>
+                </div>
+                <div>
+                 <a href=""><img class="pic-1" src="img/fenlei/ban01.png" alt=""></a>
+                 <h3>厨房小店</h3>
+                 <div class="pic-2">
+                     <div class="row">
+                         <div class="col-xs-4" v-for = "ars in num2">
+                          <a href="ars.link"><img :src="ars.img" alt=""></a>
+                          <p>{{ars.name}}</p> 
+                         </div>
+                     </div>
+                 </div>
+                </div>
+                <div>
+                 <a href=""><img class="pic-1" src="img/fenlei/ban01.png" alt=""></a>
+                 <h3>热卖分类</h3>
+                 <div class="pic-2">
+                     <div class="row">
+                         <div class="col-xs-4" v-for = "ars in num3">
+                          <a href="ars.link"><img :src="ars.img" alt=""></a>
+                          <p>{{ars.name}}</p> 
+                         </div>
+                     </div>
+                 </div>
+                </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ 
+ 
+  
+
+   
+   
+   
+   
+   
+
+   
+<!--   返回顶部样式-->
+   <div class="dingbu">
+       
+   </div>
+    
+<!--   底部导航-->
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fa fa-home"></i><span>首页</span></a></li>
+            <li><a href="fenlei.html" class="active"><i class="fa fa-th-list"></i><span>分类</span></a></li>
+            <li><a href=""><i class="fa fa-podcast"></i><i class="hot"></i><span>觅Me</span></a></li>
+            <li><a href=""><i class="fa fa-shopping-cart"></i><span>购物车</span></a></li>
+            <li><a href=""><i class="fa fa-user-o"></i><span>我的</span></a></li>
+        </ul>
+    </nav>
+    
+<script src="js/swiper-4.2.6.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/timeCountDown.js"></script>
+
+<script src="js/vue.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
