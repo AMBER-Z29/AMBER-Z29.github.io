@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-4.2.6.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    
+    <style id="css">
+	#box{ width:200px;height:200px;border:1px solid ghostwhite;position:relative;border-radius:50%;margin:100px auto; background-image: url(../ZS/tupian/04.jpg); background-size: cover; }
+	#list{ list-style:none;position:relative;height:100%;margin:0;padding:0; }
+	#list li{ width:1px;height:6px;background:#000;position:absolute;left:99px;top:0;transform-origin:center 100px;-moz-transform-origin:center 100px;-webkit-transform-origin:center 100px;-o-transform-origin:center 100px; }
+	#list li:nth-child(5n+1){ width:2px;height:10px; }
+	#ico,#hour,#min,#sec{ position:absolute;background:#000; }
+	#ico{ width:10px;height:10px;border-radius:50%;left:95px;top:95px; }
+	#hour{ width:4px;height:50px;left:98px;top:50px;transform-origin:bottom;-moz-transform-origin:bottom;-webkit-transform-origin:bottom;-o-transform-origin:bottom; }
+	#min{ width:2px;height:70px;left:99px;top:30px;background:#300;transform-origin:bottom;-moz-transform-origin:bottom;-webkit-transform-origin:bottom;-o-transform-origin:bottom; }
+	#sec{ width:2px;height:90px;left:99px;top:10px;background:red;transform-origin:bottom;-moz-transform-origin:bottom;-webkit-transform-origin:bottom;-o-transform-origin:bottom; }
+</style>
+
+</head>
+<body>
+   
+   
+<!--
+   	<div id="clock">
+		<img src="clock/images/0.png" alt="">
+		<img src="clock/images/0.png" alt="">
+		<span>:</span>
+		<img src="clock/images/0.png" alt="">
+		<img src="clock/images/0.png" alt="">
+		<span>:</span>
+		<img src="clock/images/0.png" alt="">
+		<img src="clock/images/0.png" alt="">
+	</div>
+-->
+ 
+ 
+ 
+ 
+ 
+ 
+  <div id="box">
+    	<ul id="list"></ul>
+    	<div id="hour"></div>
+        <div id="min"></div>
+        <div id="sec"></div>
+        <div id="ico"></div>
+    </div>
+
+   
+   
+   
+   
+   
+   
+    <div class="main">
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-7">
+                        <h3>Hello！  你好张珊！</h3>
+                        <p>你好张珊  我想我还是用一种留言板的方式向你展示我给你做的网页吧！
+                           我想对你说：1个宇宙 9大行星 204个国家 809个岛屿 7个大洋 77亿人 我竟有如此运气能遇见你！
+                           你呢：大高个、而且还瘦（都这么瘦了还减肥你到底想咋地- -+）、还好看 ^_^ ！ 为人诚实、热情、大方懂事、主要就是有一个善良的心.你还有很多很多优点.我就不一一说了。2018.6.15！
+                           </p>
+                    </div>
+                    <div class="col-xs-5">
+                        <img class="t1" src="tupian/05.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="tupian/5.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="tupian/7.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="tupian/8.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="tupian/1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="tupian/4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="tupian/3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="tupian/2.jpg" alt=""></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+
+
+    
+    <script src="js/swiper-4.2.6.min.js"></script>
+   <script src="js/jquery-1.11.1.min.js"></script> 
+   <script src="js/script.js"></script>
+</body>
+</html>
